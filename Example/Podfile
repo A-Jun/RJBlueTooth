@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RJBluetooth_Example' do
+  pod 'RJBluetooth', :path => '../'
+
+  target 'RJBluetooth_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
