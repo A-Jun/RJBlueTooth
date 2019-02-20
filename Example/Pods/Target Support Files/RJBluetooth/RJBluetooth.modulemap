@@ -1,0 +1,6 @@
+framework module RJBluetooth {
+  umbrella header "RJBluetooth-umbrella.h"
+
+  export *
+  module * { export * }
+}

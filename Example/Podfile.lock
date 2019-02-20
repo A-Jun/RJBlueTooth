@@ -1,0 +1,19 @@
+PODS:
+  - CTMediator (25)
+  - RJBluetooth (0.1.0):
+    - CTMediator
+
+DEPENDENCIES:
+  - RJBluetooth (from `../`)
+
+EXTERNAL SOURCES:
+  RJBluetooth:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  RJBluetooth: 7bd593c4b90503e9042ad385e60d4a5360d9d1bf
+
+PODFILE CHECKSUM: 134b77c3f6d729eaaf2ebe3f0537cf9e7b9f9d60
+
+COCOAPODS: 1.4.0

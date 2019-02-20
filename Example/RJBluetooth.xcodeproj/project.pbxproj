@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		39A4E371EE0DA37F165CCB1E /* Pods-RJBluetooth_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJBluetooth_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RJBluetooth_Example/Pods-RJBluetooth_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3E7703ECA989C970D00E867A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3E7703ECA989C970D00E867A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RJBluetooth_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RJBluetooth_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,8 +41,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6D5BD118A61A8A2772AC3136 /* Pods-RJBluetooth_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJBluetooth_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RJBluetooth_Tests/Pods-RJBluetooth_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A5E5F45D03E94A5266008978 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BCCD07479BB13A9843F4EF1B /* RJBluetooth.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RJBluetooth.podspec; path = ../RJBluetooth.podspec; sourceTree = "<group>"; };
+		A5E5F45D03E94A5266008978 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BCCD07479BB13A9843F4EF1B /* RJBluetooth.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RJBluetooth.podspec; path = ../RJBluetooth.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C79297A5FC8BE9783DA382D2 /* Pods-RJBluetooth_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJBluetooth_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RJBluetooth_Tests/Pods-RJBluetooth_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C79E91D4B271D3043B8038FB /* Pods_RJBluetooth_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJBluetooth_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDA388B6FE1D8C24AA07D71 /* Pods_RJBluetooth_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJBluetooth_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -271,10 +271,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RJBluetooth_Example/Pods-RJBluetooth_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/RJBluetooth/RJBluetooth.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RJBluetooth.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
