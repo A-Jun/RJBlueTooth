@@ -1,6 +1,6 @@
 PODS:
   - CTMediator (25)
-  - RJBluetooth (0.1.0):
+  - RJBluetooth (0.1.1):
     - CTMediator
 
 DEPENDENCIES:
@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
-  RJBluetooth: 7bd593c4b90503e9042ad385e60d4a5360d9d1bf
+  RJBluetooth: fc4d14179fc8dc4d456e502571f06f42b3bfe548
 
 PODFILE CHECKSUM: 134b77c3f6d729eaaf2ebe3f0537cf9e7b9f9d60
 
